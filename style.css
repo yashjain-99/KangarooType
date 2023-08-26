@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.body {
+  background-color: #323437;
+  color: #b3b3aa;
+  display: grid;
+  justify-items: center;
+  font-size: 1.6rem;
+}
+
+.container {
+  align-items: center;
+  gap: 8rem;
+  width: 100%;
+  max-width: 125rem;
+  padding: 6.95rem 3.2rem 3.2rem;
+  transition: padding-top 0.125s ease 0s;
+  display: grid;
+}
+
+.timer {
+  color: #E2B714;
+  font-size: 3.2rem;
+  opacity: 0;
+}
+
+.header-h1 {
+  font-family: Lexend Deca;
+  font-size: 3.2rem;
+  font-weight: unset;
+  margin-block-end: unset;
+  margin-block-start: unset;
+  margin-top: -0.32rem;
+  position: relative;
+  transition: color 0.25s;
+}
+
+.nav {
+  min-width: 100vw;
+  height: 3.2rem;
+  background-color: #E2B714;
+}
+
+.words {
+  font-size: 3.2rem;
+  height: 17rem;
+  overflow: hidden;
+  width: 100%;
+  margin-left: unset;
+  transition: all 0.25s ease 0s;
+  font-family: "Roboto Mono", monospace;
+}
+
+.letter {
+  border-bottom: 0.2rem solid transparent;
+  color: #646669;
+  font-size: 1em;
+  font-variant: no-common-ligatures;
+  line-height: 1em;
+}
+
+.space {
+  margin: 0.48rem;
+}
+
+.reload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 0.8rem;
+}
+
+.input-text {
+  opacity: 0;
+}
+
+.main-test {
+  position: relative;
+}
+
+.input {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.results {
+  align-items: center;
+  display: grid;
+  gap: 0.8rem;
+  grid-template-areas: "stats chart";
+  grid-template-columns: auto 1fr;
+  justify-content: space-evenly;
+}
+.results .stats {
+  align-items: center;
+  display: grid;
+  gap: 0.8rem;
+  grid-area: stats;
+  grid-template-areas: "wpm" "acc";
+  justify-content: center;
+}
+.results .stats .wpm {
+  grid-area: wpm;
+}
+.results .stats .wpm .top {
+  display: flex;
+  font-size: 3.2rem;
+  line-height: 2.4rem;
+  color: #646669;
+}
+.results .stats .wpm .bottom {
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+  color: #E2B714;
+}
+.results .stats .acc {
+  grid-area: acc;
+}
+.results .stats .acc .top {
+  display: flex;
+  font-size: 3.2rem;
+  line-height: 2.4rem;
+  color: #646669;
+}
+.results .stats .acc .bottom {
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+  color: #E2B714;
+}
+.results .chart {
+  grid-area: chart;
+  width: 100%;
+  max-height: 40rem;
+}/*# sourceMappingURL=style.css.map */
