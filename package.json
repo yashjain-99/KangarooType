@@ -7,11 +7,12 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1"
   },
-  "name": "monkeytypeclone",
+  "name": "kangarooType",
   "version": "1.0.0",
-  "main": "index.js",
+  "source": "index.html",
   "scripts": {
     "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
