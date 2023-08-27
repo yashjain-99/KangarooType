@@ -19,7 +19,7 @@ html {
 
 .container {
   align-items: center;
-  gap: 8rem;
+  gap: 4rem;
   width: 100%;
   max-width: 125rem;
   padding: 6.95rem 3.2rem 3.2rem;
@@ -28,7 +28,7 @@ html {
 }
 
 .timer {
-  color: #E2B714;
+  color: #e2b714;
   font-size: 3.2rem;
   opacity: 0;
 }
@@ -47,7 +47,7 @@ html {
 .nav {
   min-width: 100vw;
   height: 3.2rem;
-  background-color: #E2B714;
+  background-color: #e2b714;
 }
 
 .words {
@@ -124,7 +124,7 @@ html {
 .results .stats .wpm .bottom {
   font-size: 6.4rem;
   line-height: 6.4rem;
-  color: #E2B714;
+  color: #e2b714;
 }
 .results .stats .acc {
   grid-area: acc;
@@ -138,10 +138,22 @@ html {
 .results .stats .acc .bottom {
   font-size: 6.4rem;
   line-height: 6.4rem;
-  color: #E2B714;
+  color: #e2b714;
 }
 .results .chart {
   grid-area: chart;
   width: 100%;
   max-height: 40rem;
+}
+
+.reload-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.reload-button {
+  width: 1.5%;
+  background-color: #323437;
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
